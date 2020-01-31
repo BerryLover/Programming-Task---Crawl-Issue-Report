@@ -111,10 +111,5 @@ csv_obj = open('data.csv', 'w', encoding="utf-8")
 csv.writer(csv_obj).writerow([ attribution, answer, position, information, time_type, time_value, description])
 csv_obj.close()
 '''
-'''
-with open(birth_weight_file,'w',newline='') as f:
-    writer=csv.writer(f)
-    writer.writerow(birth_header)
-    writer.writerows(birth_data)
-    f.close()
-'''
+
+
